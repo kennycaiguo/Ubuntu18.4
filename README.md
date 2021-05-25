@@ -18,3 +18,4 @@ target:dependencies
 # <a href="https://blog.csdn.net/netwalk/article/details/12952051">Ubuntu环境下SSH的安装及使用,先只安装client，如果还不行再安装server</a>
 # <a href="https://blog.csdn.net/u011596455/article/details/60322568">关于Ubuntu中Could not get lock /var/lib/dpkg/lock解决方案</a>
 # <a href="https://blog.csdn.net/weixin_43248785/article/details/103769577">Unity 3D在Linux系统下的安装</a>
+# <a href="https://blog.csdn.net/chander1/article/details/111224508">虚拟机Ubuntu18.04开机无网络连接图标</a>
