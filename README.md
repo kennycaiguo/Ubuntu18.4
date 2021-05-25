@@ -17,3 +17,4 @@ target:dependencies
 # <a href="https://www.myfreax.com/how-to-install-visual-studio-code-on-ubuntu-18-04/">如何在Ubuntu 18.04上安装Visual Studio Code</a> 
 # <a href="https://blog.csdn.net/netwalk/article/details/12952051">Ubuntu环境下SSH的安装及使用,先只安装client，如果还不行再安装server</a>
 # <a href="https://blog.csdn.net/u011596455/article/details/60322568">关于Ubuntu中Could not get lock /var/lib/dpkg/lock解决方案</a>
+# <a href="https://blog.csdn.net/weixin_43248785/article/details/103769577">Unity 3D在Linux系统下的安装</a>
