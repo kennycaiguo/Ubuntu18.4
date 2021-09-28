@@ -1,0 +1,93 @@
+﻿在ubuntu下搭建自己的rtmp，可以推流到服务器，同时通过推流地址观看效果。
+1.准备
+apt updateapt-upgradesudo
+ apt-get -y install build-essential
+sudo apt-get -y install make
+2.依赖需要的软件：openssl pcre zlib需要的模块：nginx-rtmp-modulenginx安装与一般情况不同，依赖软件不需要安装，只需要指定其源码地址即可
+3.获取依赖源码
+Sudo mkdir ~/sourcecd ~/source
+(1)openssl官网：https://www.openssl.org/source/
+wget https://www.openssl.org/source/openssl-1.1.1.tar.gz
+tar -xzvf openssl-1.1.1.tar.gz
+(2)pcre官网：https://ftp.pcre.org/pub/pcre/
+wget https://ftp.pcre.org/pub/pcre/pcre-8.42.tar.gz
+tar -xzvf pcre-8.42.tar.gz
+(3)zlib官网：http://www.zlib.net
+wget http://www.zlib.net/zlib-1.2.11.tar.xz
+tar -xvf zlib-1.2.11.tar.xz
+(4)获得模块git clone https://github.com/arut/nginx-rtmp-module.git  
+(5)安装nginx官网：http://nginx.org/en/download.html
+wget http://nginx.org/download/nginx-1.15.3.tar.gz
+tar xzvf nginx-1.15.3.tar.gz
+cd nginx-1.15.3/
+(6)指定openssl pcre zlib 和模块地址
+Sudo ./configure --prefix=/usr/local/nginx-1.15.3 --with-openssl=../source/openssl-1.1.1/ --with-pcre=../source/pcre-8.42/ --with-zlib=../source/zlib-1.2.11/ --add-module=../source/nginx-rtmp-module/ --with-http_ssl_module
+Sudo Make
+Sudo make install
+(7)修改nginx配置文件
+
+cd /usr/local/nginx-1.15.3/conf
+
+修改nginx.conf
+
+第一行
+
+#user  nobody;
+
+修改为
+
+#user  root; 
+user kenny;
+
+在文件末尾追加内容
+
+rtmp {
+
+    server {
+
+        listen 1935;
+
+        chunk_size 4096;   
+
+        application hls { 
+
+            live on;    
+
+            hls on;    
+
+            hls_path /root/hls;    
+
+            hls_fragment 5s;    
+
+        }    
+
+    }    
+
+} 
+
+记住hls_path 设定的值
+
+创建hls_path 设定的文件夹
+
+#mkdir /root/hls
+mkdir /home/kenny/hls
+
+启动nginx并且读取配置文件
+
+sudo /usr/local/nginx-1.15.3/sbin/nginx -c /usr/local/nginx-1.15.3/conf/nginx.conf
+
+(8)推流测试
+
+根据hls_path可知推流地址
+
+rtmp://你的服务器ip:端口(1935)/hls
+
+使用OBS推流到这个地址
+
+查看/root/hls下是否有ts文件和m3u8文件生成
+
+ok!
+
+
+
+ 作者：一把近战都不给六花 https://www.bilibili.com/read/cv1145114 出处：bilibili
