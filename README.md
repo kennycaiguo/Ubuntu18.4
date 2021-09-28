@@ -9,6 +9,7 @@ target:dependencies
   注意：需要安装make
 
 ## 相关链接
+# <a href="https://cloud.tencent.com/developer/article/1434564">修改Ubuntu操作系统root默认密码</a>
 # <a href="https://blog.csdn.net/kudou1994/article/details/80913059">详细讲解给Ubuntu虚拟机扩容</a>
 # <a href="https://blog.csdn.net/fx_yzjy101/article/details/80238014">将Ubuntu设置为中文</a>
 # <a href="https://blog.csdn.net/jiangshuanshuan/article/details/95718528?utm_medium=distribute.pc_relevant_bbs_down.none-task-blog-baidujs-1.nonecase&depth_1-utm_source=distribute.pc_relevant_bbs_down.none-task-blog-baidujs-1.nonecase">vmware虚拟机运行ubuntu等卡慢的解决办法</a>
