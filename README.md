@@ -9,6 +9,7 @@ target:dependencies
   注意：需要安装make
 
 ## 相关链接
+# <a href="https://blog.csdn.net/JENREY/article/details/101363775">连接另一台电脑下的虚拟机系统</a>
 # <a href="https://cloud.tencent.com/developer/article/1434564">修改Ubuntu操作系统root默认密码</a>
 # <a href="https://blog.csdn.net/kudou1994/article/details/80913059">详细讲解给Ubuntu虚拟机扩容</a>
 # <a href="https://blog.csdn.net/fx_yzjy101/article/details/80238014">将Ubuntu设置为中文</a>
