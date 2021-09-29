@@ -49,45 +49,30 @@ rtmp {
 
         chunk_size 4096;   
 
-        application hls { 
+        application live { 
 
             live on;    
 
-            hls on;    
+            record off;    
 
-            hls_path /root/hls;    
+            exec ffmpeg -i rtmp://localhost/live/$name -threads 1 -c:v libx264 
+-profile:v baseline -b:v 350k -s 640x360 -f flv -c:a aac -ac 1 -strict -2 -b:a 56k
+rtmp://localhost/live360p/$name;
+        }   
+           application live360p{
+              
+                   live on;
+                   record off;
 
-            hls_fragment 5s;    
-
-        }    
+      }
 
     }    
 
 } 
 
-记住hls_path 设定的值
-
-创建hls_path 设定的文件夹
-
-#mkdir /root/hls
-mkdir /home/kenny/hls
 
 启动nginx并且读取配置文件
 
 sudo /usr/local/nginx-1.15.3/sbin/nginx -c /usr/local/nginx-1.15.3/conf/nginx.conf
 
-(8)推流测试
-
-根据hls_path可知推流地址
-
-rtmp://你的服务器ip:端口(1935)/hls
-
-使用OBS推流到这个地址
-
-查看/root/hls下是否有ts文件和m3u8文件生成
-
-ok!
-
-
-
- 作者：一把近战都不给六花 https://www.bilibili.com/read/cv1145114 出处：bilibili
+测试：rtmp://192.168.100.47:1935/live
