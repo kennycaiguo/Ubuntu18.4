@@ -9,6 +9,7 @@ target:dependencies
   注意：需要安装make
 
 ## 相关链接
+# <a href="https://blog.csdn.net/u012308586/article/details/102953882">ubuntu16.04和18.04更换国内源</a>
 # <a href="https://blog.csdn.net/JENREY/article/details/101363775">连接另一台电脑下的虚拟机系统</a>
 # <a href="https://cloud.tencent.com/developer/article/1434564">修改Ubuntu操作系统root默认密码</a>
 # <a href="https://blog.csdn.net/kudou1994/article/details/80913059">详细讲解给Ubuntu虚拟机扩容</a>
