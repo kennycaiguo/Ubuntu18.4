@@ -1,0 +1,1 @@
+scp -P 22 1024.png root@192.168.100.47:/home/sunftp/ftpdir/upload
