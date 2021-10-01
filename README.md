@@ -9,6 +9,7 @@ target:dependencies
   注意：需要安装make
 
 ## 相关链接
+# <a href="http://imhuchao.com/323.html">ftp命令大全</a>
 # <a href="http://www.srcmini.com/61155.html">解决Ubuntu 18.04中无法播放MP4文件：播放该文件需要H.264(主配置文件)解码器，但尚未安装</a>
 # <a href="https://www.codeleading.com/article/46832357167/">配置Ubuntu18.04系统使用root账号登陆</a>
 # <a href="https://blog.csdn.net/u012308586/article/details/102953882">ubuntu16.04和18.04更换国内源</a>
