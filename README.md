@@ -9,6 +9,7 @@ target:dependencies
   注意：需要安装make
 
 ## 相关链接
+# <a href="https://blog.csdn.net/willingtolove/article/details/107496063">Ubuntu中使用chconfig命令报错：“chkconfig: command not found“ 的解决方案</a>
 # <a href="http://imhuchao.com/323.html">ftp命令大全</a>
 # <a href="https://blog.csdn.net/weixin_43274923/article/details/84866234">Ubuntu 18.04下安装最新CMake及CMake简单使用</a>
 # <a href="http://www.srcmini.com/61155.html">解决Ubuntu 18.04中无法播放MP4文件：播放该文件需要H.264(主配置文件)解码器，但尚未安装</a>
