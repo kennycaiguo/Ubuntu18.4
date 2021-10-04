@@ -9,6 +9,7 @@ target:dependencies
   注意：需要安装make
 
 ## 相关链接
+# <a href="https://blog.csdn.net/hl449006540/article/details/80323386">在添加nginx为系统服务时出现Unit nginx.service is masked.</a>
 # <a href="https://blog.csdn.net/willingtolove/article/details/107496063">Ubuntu中使用chconfig命令报错：“chkconfig: command not found“ 的解决方案</a>
 # <a href="http://imhuchao.com/323.html">ftp命令大全</a>
 # <a href="https://blog.csdn.net/weixin_43274923/article/details/84866234">Ubuntu 18.04下安装最新CMake及CMake简单使用</a>
