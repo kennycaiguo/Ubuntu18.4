@@ -21,7 +21,7 @@ wget http://nginx.org/download/nginx-1.15.3.tar.gz
 tar xzvf nginx-1.15.3.tar.gz
 cd nginx-1.15.3/
 (6)指定openssl pcre zlib 和模块地址
-Sudo ./configure --prefix=/usr/local/nginx-1.15.3 --with-openssl=../source/openssl-1.1.1/ --with-pcre=../source/pcre-8.42/ --with-zlib=../source/zlib-1.2.11/ --add-module=../source/nginx-rtmp-module/ --with-http_ssl_module
+Sudo ./configure --prefix=/usr/local/nginx-1.15.3 --with-openssl=../openssl-1.1.1/ --with-pcre=../pcre-8.42/ --with-zlib=../zlib-1.2.11/ --add-module=../nginx-rtmp-module/ --with-http_ssl_module
 Sudo Make
 Sudo make install
 (7)修改nginx配置文件
