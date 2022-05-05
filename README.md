@@ -9,6 +9,7 @@ target:dependencies
   注意：需要安装make
 
 ## 相关链接
+# <a href="https://blog.csdn.net/a909301740/article/details/81366206">无法从 Windows 远程登陆到虚拟机上的Linux（Ubuntu）系统解决过程</a>
 # <a href="https://blog.csdn.net/perfectrobot/article/details/85761936">Ubuntu 16.04下设置 python3 为默认 python 版本</a>
 # <a href="https://blog.csdn.net/hl449006540/article/details/80323386">在添加nginx为系统服务时出现Unit nginx.service is masked.</a>
 # <a href="https://blog.csdn.net/willingtolove/article/details/107496063">Ubuntu中使用chconfig命令报错：“chkconfig: command not found“ 的解决方案</a>
