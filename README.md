@@ -12,6 +12,8 @@ target:dependencies
 # ubuntu 18.04安装make：
 ## sudo apt-get install build-essential
 # <a href="https://www.jianshu.com/p/30ec1882d184">在ubuntu18.04中安装qt</a>
+# <a href="https://github.com/kennycaiguo/Ubuntu18.4/blob/main/Ubuntu18.04%E5%AE%89%E8%A3%85opencv3.1.0.docx">ubuntu 18.04安装opencv3.1.0</a>
+# <a href="https://pythontechworld.com/article/detail/97LDt1i6U3zQ">ubuntu 18.04安装opencv3.1.0-2</a>
 # <a href="https://www.121xz.com/softdown/90211 ">Xmanager Power Suite 7下载</a>
 # <a href="https://blog.csdn.net/a909301740/article/details/81366206">无法从 Windows 远程登陆到虚拟机上的Linux（Ubuntu）系统解决过程</a>
 # <a href="https://blog.csdn.net/perfectrobot/article/details/85761936">Ubuntu 16.04下设置 python3 为默认 python 版本</a>
