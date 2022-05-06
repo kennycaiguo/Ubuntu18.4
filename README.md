@@ -9,6 +9,8 @@ target:dependencies
   注意：需要安装make
 
 ## 相关链接
+# ubuntu 18.04安装make：
+## sudo apt-get install build-essential
 # <a href="https://www.121xz.com/softdown/90211 ">Xmanager Power Suite 7下载</a>
 # <a href="https://blog.csdn.net/a909301740/article/details/81366206">无法从 Windows 远程登陆到虚拟机上的Linux（Ubuntu）系统解决过程</a>
 # <a href="https://blog.csdn.net/perfectrobot/article/details/85761936">Ubuntu 16.04下设置 python3 为默认 python 版本</a>
