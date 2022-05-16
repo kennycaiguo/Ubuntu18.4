@@ -13,6 +13,7 @@ target:dependencies
 ## sudo apt-get install build-essential
 # <a href="https://www.jianshu.com/p/6d807c585e1d">Ubuntu18.04安装、卸载MySQL</a>
 # <a href="https://www.jianshu.com/p/30ec1882d184">在ubuntu18.04中安装qt</a>
+# <a href="https://www.linuxidc.com/Linux/2018-11/155507.htm">如何在Ubuntu 18.04上安装和配置Apache 2 Web服务器</a>
 # <a href="https://github.com/kennycaiguo/Ubuntu18.4/blob/main/Ubuntu18.04%E5%AE%89%E8%A3%85opencv3.1.0.docx">ubuntu 18.04安装opencv3.1.0</a>
 # <a href="https://pythontechworld.com/article/detail/97LDt1i6U3zQ">ubuntu 18.04安装opencv3.1.0-2</a>
 # <a href="https://www.121xz.com/softdown/90211 ">Xmanager Power Suite 7下载</a>
