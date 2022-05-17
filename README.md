@@ -9,7 +9,8 @@ target:dependencies
   注意：需要安装make
 
 ## 相关链接
-# ubuntu 18.04安装make：
+# ubuntu 18.04安装gcc,g++,make：
+## sudo apt update
 ## sudo apt-get install build-essential
 # <a href="https://www.jianshu.com/p/6d807c585e1d">Ubuntu18.04安装、卸载MySQL</a>
 # <a href="https://www.jianshu.com/p/30ec1882d184">在ubuntu18.04中安装qt</a>
